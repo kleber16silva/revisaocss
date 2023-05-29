@@ -3,4 +3,4 @@
 
 ### Hierarquia e Especifidade css
 
-!(imagem CSS)[TIGRE.jpg]
+![imagem CSS](TIGRE.jpg)
