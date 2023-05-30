@@ -3,7 +3,7 @@
 
 ## exercicios de revisão introdução css
 
-### Hierarquia e Especifidade css
+### Hierarquia e Especificidade css
 <!--comentário1-->
 ![imagem CSS](./imagem%20css/TIGRE.jpg)
 <!--comentário1-->

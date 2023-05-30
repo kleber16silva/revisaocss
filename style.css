@@ -36,11 +36,13 @@ p{
     color: yellow;
     background-color: green;
     
+    
 
 }
 
 .fundo-verde p{
 color: yellow;
+transition: all 5s ease;
 
 }
 /* usar sinal de maior para filhos direto*/
