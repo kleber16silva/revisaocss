@@ -35,7 +35,7 @@ p{
 .fundo-verde{
     color: yellow;
     background-color: green;
-    height: 40px;
+    
 
 }
 
@@ -43,3 +43,28 @@ p{
 color: yellow;
 
 }
+/* usar sinal de maior para filhos direto*/
+/*usar espaço para todos os descendentes*/
+
+/*pseudo -class definen propriedades e valores para um determinado estado de elemento*/
+.fundo-verde :hover{
+ background-color: blue;
+
+}
+
+/*pseudo-elemento são usados para adicionar efeitos diferentes a 
+um seletor, ou a parte de um seletor*/
+.fundo-verde ::before{
+    color:rebeccapurple;
+    content:"Olá eu sou uma string que aparece magicamente antes do elemento  ";
+
+}
+/*aqui vamos combinar o uso do pseudo-elemento no .fundo-verde::after*/
+.fundo-verde:hover ::after{
+    color: aqua;
+    height: 50px;
+    content: "  Eu sou um pseudo-elemento que aparece depois do elemento";
+   
+
+}
+ 
